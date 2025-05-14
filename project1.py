@@ -9,7 +9,7 @@ def time():
     label.config(text=string)
     label.after(1000,time)
 
-label = tk.Label(root,font=('calibri',50,'semibold'),background='yellow',foreground= 'black')
+label = tk.Label(root,font=('calibri',50,'bold'),background='yellow',foreground= 'black')
 label.pack(anchor='center')
 
 time()
